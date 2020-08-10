@@ -1,0 +1,17 @@
+nav {
+    background: #C4C4C4;
+}
+
+.headerName {
+    font-size: 24px;
+    color: black;
+}
+
+.links {
+    color: black;
+}
+
+.links:hover {
+    color: black;
+    font-weight: bold;
+}
