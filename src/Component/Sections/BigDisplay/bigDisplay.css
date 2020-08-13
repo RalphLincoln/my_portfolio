@@ -3,6 +3,14 @@
 }
 
 .bt-color {
-    background-color: #C4C4C4 !important;
+    background-color: #7052E8 !important;
     border-radius: 95px !important;
+    color: white !important;
+    font-size: 13px !important;
+}
+
+.bt-color:hover {
+    background-color: white !important;
+    color: black !important;
+    border: 1px solid #7052E8;
 }

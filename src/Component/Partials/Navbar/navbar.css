@@ -1,10 +1,6 @@
-nav {
-    background: #C4C4C4;
-}
-
 .headerName {
-    font-size: 24px;
-    color: black;
+    font-size: 29px !important;
+    color: #7052E8;
 }
 
 .links {
@@ -12,6 +8,7 @@ nav {
 }
 
 .links:hover {
-    color: black;
+    color: #7052E8;
     font-weight: bold;
+    border-bottom: 1px solid #7052E8;
 }

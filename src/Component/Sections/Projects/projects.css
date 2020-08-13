@@ -1,0 +1,16 @@
+.tiny {
+  font-size: 13px;
+}
+
+.card {
+  border: none !important;
+}
+
+.icons {
+  font-size: 23px;
+  color: #7052E8;
+}
+
+.icons:hover {
+  font-size: 29px;
+}
