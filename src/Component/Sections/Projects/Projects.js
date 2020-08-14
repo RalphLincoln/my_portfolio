@@ -15,7 +15,7 @@ export default class Projects extends Component {
                 <BigTitle title='PROJECTS' />
                 <div className="container">
                     <div className="card-deck">
-                        <div className="card shadow">
+                        <div className="card shadow grow">
                             <div className="card-body">
                                 <h5 className="card-title font-weight-bold">Covid-19 Tracker</h5>
                                 <p className="card-text tiny">React.js+Bootstrap+Node.js+MongoDB+Mongoose</p>
@@ -25,7 +25,7 @@ export default class Projects extends Component {
                                 <a href='https://naughty-johnson-65054a.netlify.app/' className="card-text text-right nav-link"><FaEye className='icons' /></a>
                             </div>
                         </div>
-                        <div className="card shadow">
+                        <div className="card shadow grow">
                             <div className="card-body">
                                 <h5 className="card-title font-weight-bold">School Management App</h5>
                                 <p className="card-text tiny">React.js+Bootstrap+Node.js+MongoDB+Mongoose</p>
@@ -36,7 +36,7 @@ export default class Projects extends Component {
                                 <a href='https://boring-clarke-306fe2.netlify.app/' className="card-text  text-right nav-link"><FaEye className='icons' /></a>
                             </div>
                         </div>
-                        <div className="card shadow">
+                        <div className="card shadow grow">
                             <div className="card-body">
                                 <h5 className="card-title font-weight-bold">Nemos</h5>
                                 <p className="card-text tiny">Bootstrap+PHP+MySql</p>
@@ -49,7 +49,7 @@ export default class Projects extends Component {
 
 
                     <div className="card-deck mt-4">
-                        <div className="card shadow">
+                        <div className="card shadow grow">
                             <div className="card-body">
                                 <h5 className="card-title font-weight-bold">Weather App</h5>
                                 <p className="card-text tiny">React.js+Bootstrap</p>
@@ -58,7 +58,7 @@ export default class Projects extends Component {
                                 <a href='https://lincolnweather.netlify.app/' className="card-text text-right nav-link"><FaEye className='icons' /></a>
                             </div>
                         </div>
-                        <div className="card shadow">
+                        <div className="card shadow grow">
                             <div className="card-body">
                                 <h5 className="card-title font-weight-bold">Beach Resort</h5>
                                 <p className="card-text tiny">React.js+Bootstrap</p>
@@ -67,7 +67,7 @@ export default class Projects extends Component {
                                 <a href='https://adoring-booth-bd860e.netlify.app/' className="card-text  text-right nav-link"><FaEye className='icons' /></a>
                             </div>
                         </div>
-                        <div className="card shadow">
+                        <div className="card shadow grow">
                             <div className="card-body">
                                 <h5 className="card-title font-weight-bold">Nemos</h5>
                                 <p className="card-text tiny">Bootstrap+PHP+MySql</p>

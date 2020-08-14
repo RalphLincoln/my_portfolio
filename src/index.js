@@ -6,6 +6,7 @@ import * as serviceWorker from './serviceWorker';
 // IMPORTING BOOTSTRAP
 import '../node_modules/bootstrap/dist/css/bootstrap.css';
 import { BrowserRouter as Router } from 'react-router-dom'
+import '../node_modules/tachyons'
 
 ReactDOM.render(
   <Router>

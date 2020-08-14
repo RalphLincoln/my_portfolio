@@ -25,7 +25,7 @@ export default function BigDisplay() {
                         </p>
                             <div className="pt-3">
                                 {/* <button className='btn pr-5 pt-3 pb-3 pl-5 bt-color mr-5'>HIRE ME</button> */}
-                                <button className='btn pr-5 pt-3 pb-3 pl-5 bt-color'>RESUME</button>
+                                <button className='btn pr-5 pt-3 pb-3 pl-5 bt-color'>DOWNLOAD RESUME</button>
                             </div>
                         </div>
                     </div>
