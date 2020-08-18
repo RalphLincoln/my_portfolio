@@ -14,7 +14,7 @@ import Projects from './Component/Sections/Projects/Projects';
 import Contact from './Component/Sections/Contact/Contact'
 
 
-function App() {
+function App(props) {
   return (
     <div className="App">
       <Navbar />

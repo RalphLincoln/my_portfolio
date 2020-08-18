@@ -69,11 +69,11 @@ export default class Projects extends Component {
                         </div>
                         <div className="card shadow grow">
                             <div className="card-body">
-                                <h5 className="card-title font-weight-bold">Nemos</h5>
-                                <p className="card-text tiny">Bootstrap+PHP+MySql</p>
+                                <h5 className="card-title font-weight-bold">E-commerce</h5>
+                                <p className="card-text tiny">React.js+Bootstrap</p>
                                 <hr />
-                                <p className="card-text">This is a landing page for an advertisement campaign. </p>
-                                <a href='#' className="card-text text-right nav-link"><FaEye className='icons' /></a>
+                                <p className="card-text">This is an e-comerce web-site</p>
+                                <a href='https://vigilant-pasteur-b35c88.netlify.app/' target='__blank' className="card-text text-right nav-link"><FaEye className='icons' /></a>
                             </div>
                         </div>
                     </div>
