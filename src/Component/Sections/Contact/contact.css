@@ -1,19 +1,36 @@
 .cover {
-    background: #311b92;
+    border: 1px solid #311b92;
+    border-radius: 40px;
 }
 
 input {
-    color: white !important;
+    color: #311b92 !important;
     background: none !important;
+    /* border: 1px solid #311b92 !important; */
 }
 
 textarea {
-    color: white !important;
+    color: #311b92 !important;
     background: none !important;
 }
 
+.text {
+    color: #311b92 !important;
+}
+
 ::placeholder {
+    color: #311b92 !important;
+}
+
+.submits {
+    background-color: #311b92 !important;
     color: white !important;
+}
+
+.submits:hover {
+    background-color: white !important;
+    border: 1px solid #311b92;
+    color: #311b92 !important;
 }
 
 .bounce1 {

@@ -36,20 +36,34 @@ const mapDispatchToProps = dispatch => {
 class Contact extends Component {
     handleSubmit = (e) => {
         e.preventDefault()
-        axios.post('https://my-portfolio-back-end.herokuapp.com/api/form', {
-            name: this.props.name,
-            email: this.props.email,
-            message: this.props.message,
-            subject: this.props.subject
-        })
-            .then(response => {
-                console.log(response)
-                console.log('Email sent......');
+        // axios.post('https://my-portfolio-back-end.herokuapp.com/api/form', {
+        //     name: this.props.name,
+        //     email: this.props.email,
+        //     message: this.props.message,
+        //     subject: this.props.subject
+        // }, {
+        //     header: {
+        //         'Access-Control-Allow-Origin': '*'
+        //     }
+        // })
+        //     .then(response => {
+        //         console.log(response)
+        //         console.log('Email sent......');
 
-            })
-            .catch(error => {
-                console.log(error)
-            })
+        //     })
+        //     .catch(error => {
+        //         console.log(error)
+        //     })
+
+        // const proxyurl = "https://cors-anywhere.herokuapp.com/";
+        const url = "https://my-portfolio-back-end.herokuapp.com/api/form"; // site that doesn’t send Access-Control-*
+        fetch(url, {
+            method: 'POST',
+            mode: 'no-cors',
+        }) // https://cors-anywhere.herokuapp.com/https://example.com
+            .then(response => response.text())
+            .then(contents => console.log(contents, 'Sent'))
+            .catch(() => console.log("Can’t access " + url + " response. Blocked by browser?"))
     }
 
     render() {
@@ -59,8 +73,8 @@ class Contact extends Component {
                 <div className='cover'>
                     <div className="row p-4">
                         <div className="col-md-6">
-                            <h3 className='display-4 font-weight-bold text-white'>I’M EXCITED TO HEAR FROM YOU !</h3>
-                            <p className='text-white mt-5'>Feel free to get in touch, I’m available for freelancing, collaborations.</p>
+                            <h3 className='display-4 font-weight-bold text'>I’M EXCITED TO HEAR FROM YOU !</h3>
+                            <p className='text mt-5'>Feel free to get in touch, I’m available for freelancing, collaborations.</p>
 
                         </div>
                         <div className="col-md-6">
@@ -104,7 +118,7 @@ class Contact extends Component {
                                     id="" cols="20" rows="8">
                                 </textarea>
 
-                                <button className='btn btn-light mt-2' type="submit">Send</button>
+                                <button className='btn submits mt-2' type="submit">Send</button>
                             </form>
                         </div>
                     </div>
