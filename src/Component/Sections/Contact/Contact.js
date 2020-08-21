@@ -6,7 +6,7 @@ import './contact.css';
 // IMPORTING AXIOS
 import axios from 'axios';
 
-import { Redirect } from 'react-router-dom';
+// import { h } from 'react-router-dom';
 
 // IMPORTING MY REDUX ACTIONS
 import { setEmailField, setMessageField, setNameField, setSubjectField } from '../../../actions';
@@ -45,6 +45,7 @@ class Contact extends Component {
             .then(response => {
                 console.log(response)
                 console.log('Email sent......');
+
             })
             .catch(error => {
                 console.log(error)
