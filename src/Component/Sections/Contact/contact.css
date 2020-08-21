@@ -1,84 +1,47 @@
 .cover {
-    border: 1px solid #311b92;
-    border-radius: 40px;
+  border: 1px solid #311b92;
+  border-radius: 40px;
 }
 
 input {
-    color: #311b92 !important;
-    background: none !important;
-    /* border: 1px solid #311b92 !important; */
+  color: #311b92 !important;
+  background: none !important;
+  /* border: 1px solid #311b92 !important; */
 }
 
 textarea {
-    color: #311b92 !important;
-    background: none !important;
+  color: #311b92 !important;
+  background: none !important;
 }
 
 .text {
-    color: #311b92 !important;
+  color: #311b92 !important;
 }
 
 ::placeholder {
-    color: #311b92 !important;
+  color: #311b92 !important;
 }
 
 .submits {
-    background-color: #311b92 !important;
-    color: white !important;
+  background-color: #311b92 !important;
+  color: white !important;
 }
 
 .submits:hover {
-    background-color: white !important;
-    border: 1px solid #311b92;
-    color: #311b92 !important;
+  background-color: white !important;
+  border: 1px solid #311b92;
+  color: #311b92 !important;
 }
 
 .bounce1 {
-    width: 20px;
-    height: 20px;
-    border-radius: 100%;
-    background: transparent;
-    border: 1px solid white;
-    animation: bounce 1s;
-    transform: translateY(0px);
-    animation-iteration-count: infinite;
-    position: absolute;
-    margin: 190px;
-}
-
-@keyframes bounce {
-    0% {
-        top: 0;
-        -webkit-animation-timing-function: ease-in;
-    }
-
-    40% {}
-
-    50% {
-        top: 140px;
-        height: 20px;
-        -webkit-animation-timing-function: ease-out;
-    }
-
-    55% {
-        top: 160px;
-        height: 20px;
-        -webkit-animation-timing-function: ease-in;
-    }
-
-    65% {
-        top: 120px;
-        height: 20px;
-        -webkit-animation-timing-function: ease-out;
-    }
-
-    95% {
-        top: 0;
-        -webkit-animation-timing-function: ease-in;
-    }
-
-    100% {
-        top: 0;
-        -webkit-animation-timing-function: ease-in;
-    }
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  background: transparent;
+  border: 1px solid white;
+  animation: bounce 1s;
+  transform: translateY(0px);
+  animation-iteration-count: infinite;
+  position: absolute;
+  margin: 190px;
 }
